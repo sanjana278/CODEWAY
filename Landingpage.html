@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #f4f3f3;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #8d8484;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            width: calc(50% - 20px);
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Landing Page</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>About Us</h2>
+        <p>We create experiences in the field of Web Design.</p>
+    </section>
+
+    <section>
+        <h2>Services</h2>
+        <div class="row">
+            <div class="column">
+                <h3>Web Design</h3>
+                <p>We will work for beautiful website creations!</p>
+            </div>
+            <div class="column">
+                <h3>Graphic Design</h3>
+                <p>We will include graphical designs to get the best user inteface!</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Email: sanjanasamaga@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+</div>
+
+<footer>
+    <p style="color: white;">&copy; 2024 Beautiful Landing Page. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
